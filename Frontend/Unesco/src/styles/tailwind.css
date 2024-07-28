@@ -1,0 +1,12 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Custom styles */
+body {
+  @apply bg-nature bg-cover bg-center min-h-screen;
+}
+
+form {
+  @apply bg-white bg-opacity-90 p-6 rounded-lg shadow-lg max-w-md w-full;
+}
