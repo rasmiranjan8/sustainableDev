@@ -1,15 +1,20 @@
 module.exports = {
-  content: ['./src/**/*.{js,jsx,ts,tsx}', './public/index.html'], // Updated from purge to content
+  content: ["./src/**/*.{js,jsx,ts,tsx}", "./public/index.html"],
   theme: {
     extend: {
-      colors: {
-        'green-primary': '#4CAF50',
-        'green-secondary': '#81C784',
-        'green-dark': '#388E3C',
-        'green-light': '#A5D6A7',
+      borderRadius: {
+        "5px": "5px",
       },
-      backgroundImage: {
-        'nature': "url('/src/assets/background.jpg')",
+      colors: {
+        "green-primary": "#4CAF50",
+        "green-secondary": "#81C784",
+        "green-dark": "#388E3C",
+        "grass-green": "#32CD32",
+        cream: "#FFFDD0",
+        black: "#000000",
+        "green-light": "#A5D6A7",
+        "royal-black": "#0D0D0D",
+        soil: "#8B4513",
       },
     },
   },
@@ -17,4 +22,4 @@ module.exports = {
     extend: {},
   },
   plugins: [],
-}
+};
